@@ -29,9 +29,11 @@
 
 
 let katzDeliLine=[];
+let number = 0;
 
-function takeANumber(katzDeliLine, name) {
-   katzDeliLine.push(name)
+function takeANumber(katzDeliLine, number) {
+  
+   katzDeliLine.push(number + 1)
    return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
 
